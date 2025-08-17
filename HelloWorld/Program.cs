@@ -6,20 +6,10 @@
 
 using System.Runtime.InteropServices;
 
-string myName = "Cognisnart";
+Console.Write("Input your name: ");
+string myName = Console.ReadLine();
 
+Console.WriteLine($"Name: {myName}");
 
-if (myName == "Cognisnart")
-{
-    Console.WriteLine("Correct name");
-    //print Loop Hello World 15 times
-    for (int i = 0; i <= 15; i++ )
-    {
-        Console.WriteLine("Hello Word " + i);
-    }    
-}
-else 
-{
-    Console.WriteLine("Incorrect name");
-} 
-    
+// Testing Modification 
+// Test Github
